@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+	<title>Современные приложения разработки</title>
+	<link rel="shortcut icon" href="https://www.favicon.cc/logo3d/839039.png" type="image/png">
+	<meta charset="UTF-8">
+	
+	<style>
+		body {
+			background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH0Bdkd5rDTTgUK1DfzhMp48RmflYkcWXzww&usqp=CAU');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+			margin: 0px;
+			min-width: 300px
+		}
+		
+		.streak {
+			width: 75%;
+			margin: auto;
+			text-align: justify;
+			background-color: rgb(255, 255, 255, 0.75);
+			font-size: 125%;
+			padding: 10px;
+			text-indent: 20px;
+		}
+		
+		.sticky {
+			position: -webkit-sticky;
+			position: sticky;
+			top: 0;
+			width: 100%;
+			margin: auto;
+			text-align: center;
+			font-size: 125%;
+			padding: 0px;
+			background-color: black;
+			color: white;
+			font-family: Arial;
+		}
+		
+		.topic {
+			font-family: Arial;
+			text-align: center;
+			margin: auto;
+			width: 100%;
+			padding: 0px;
+		}
+		
+		.dropbtn {
+			background-color: black;
+			color: white;
+			padding: 16px;
+			font-size: 20px;
+			border: none;
+			min-width: 160px;
+		}
+
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f1f1f1;
+			min-width: 160px;
+			-webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		}
+
+		.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+
+		.dropdown-content a:hover {background-color: #ddd;}
+
+		.dropdown:hover .dropdown-content {display: block;}
+
+		.dropdown:hover .dropbtn {background-color: #ddd; color: black;}
+    </style>
+	
+</head>
+<body>
+	<div class="sticky">
+		<div class="dropdown">
+			<button class="dropbtn">Страницы</button>
+			<div class="dropdown-content" id="pLinks">
+			</div>
+		</div>
+	</div>
+	<div class="topic">
+		<h1>Современные приложения разработки</h1>
+	</div>
+	<div class="streak">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Qt_logo_2016.svg/1200px-Qt_logo_2016.svg.png" width = "100px" height = "100px" alt="Qt Creator logo"></img>
+		<p>Qt Creator — это полнофункциональная интегрированная среда разработки (IDE) для приложений C ++, QML и JavaScript. Это комплексная кроссплатформенная IDE, которая разрешает пользователям масштабироваться выше кода и создавать подключенные устройства, приложения и пользовательские интерфейсы.</p>
+		<p>ПО представляет собой единую сложную консоль, которая позволяет разработчикам создавать приложения для: множества встроенных платформ; настольных систем; мобильных устройств, включая iOS и Android.</p>
+		<p>В приложении имеется редактор кода, который легко интегрируется с другими инструментами для: кодирования; проектирования; развертывания; тестирования; мониторинга.</p>
+		<p>Простой и интуитивно понятный интерфейс Qt Creator делает процесс обучения более плавным.</p>
+		<p>Другие функции, которые делают разработку приложений быстрой и легкой, включают: создание пользовательского интерфейса; инструменты профилирования; визуальную отладку; интегрированную разметку графического интерфейса; конструктор форм.</p>
+	</div>
+	
+	<script>
+		var pages = document.getElementById("pLinks");
+		for(var i = 1; i <= 5; i++){
+			var aLink = document.createElement("A");
+			aLink.text = "Страница " + i;
+			aLink.href = "Page" + i + ".html";
+			pages.appendChild(aLink);
+		}
+		document.getElementsByClassName("dropbtn")[0].textContent += " (4)";
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
